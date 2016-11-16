@@ -1,0 +1,10 @@
+*.ts
+!*.d.ts
+__tests__/
+coverage/
+.vscode/
+tsconfig.json
+tslint.json
+.npmignore
+.editorconfig
+.gitignore

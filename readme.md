@@ -1,24 +1,27 @@
-# username [![Build Status](https://travis-ci.org/sindresorhus/username.svg?branch=master)](https://travis-ci.org/sindresorhus/username)
+# username
 
-> Get the username of the current user
+> Get the username of the current user. This is a fork of `https://github.com/sindresorhus/username`. 
+This forks exists due to the necessity of having ES5 code in the published package (because the Uglify plugin of Webpack was complaining about not understanding ES2015). By creating this Typescript version we also get the Typings for free.
 
 
 ## Install
 
 ```
-$ npm install --save username
+$ npm install --save @valudio/username
 ```
 
 
 ## Usage
 
-```js
-const username = require('username');
+```ts
+import { sync, async } from '@valudio/username';
 
-username().then(username => {
+async().then(username => {
 	console.log(username);
-	//=> 'sindresorhus'
+	//=> 'valudio'
 });
+
+console.log(sync());
 ```
 
 
@@ -35,12 +38,11 @@ Returns a promise for the username.
 Returns the username.
 
 
-## Related
+## Original code
 
-- [username-cli](https://github.com/sindresorhus/username-cli) - CLI for this module
-- [fullname](https://github.com/sindresorhus/fullname) - Get the fullname of the current user
+Thanks to [sindresorhus](https://github.com/sindresorhus) for the original code.
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Valudio](http://valudio.com)
