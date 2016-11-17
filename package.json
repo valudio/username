@@ -1,6 +1,6 @@
 {
   "name": "@valudio/username",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Get the username of the current user",
   "repository": "https://github.com/valudio/username",
   "author": "Valudio <development@valudio.com>",
@@ -8,7 +8,6 @@
   "typings": "dist/index.d.ts",
   "main": "dist/index.js",
   "scripts": {
-    "test:o": "xo && ava",
     "build": "rimraf dist && tsc",
     "pretest": "npm run build",
     "test": "jest --coverage",
