@@ -1,4 +1,4 @@
-import { sync, async } from '../index';
+import { async, sync } from '../index';
 
 describe('main tests', () => {
 

@@ -13,6 +13,7 @@
     ], 
     "object-literal-sort-keys": false,
     "no-string-literal": false,
-    "curly": false
+    "curly": false,
+    "arrow-parens": false
   }
 }
