@@ -1,6 +1,6 @@
 {
   "name": "@valudio/username",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "Get the username of the current user",
   "repository": "https://github.com/valudio/username",
   "author": "Valudio <development@valudio.com>",
@@ -33,16 +33,16 @@
     "variable"
   ],
   "dependencies": {
-    "@types/node": "^6.0.48",
-    "execa": "^0.4.0",
-    "mem": "^0.1.0"
+    "@types/node": "^7.0.3",
+    "execa": "^0.6.0",
+    "mem": "^1.1.0"
   },
   "devDependencies": {
     "@types/core-js": "^0.9.34",
     "@types/jest": "^16.0.0",
-    "jest": "^17.0.2",
+    "jest": "^18.1.0",
     "rimraf": "^2.5.4",
-    "tslint": "^3.15.1",
+    "tslint": "^4.3.1",
     "typescript": "^2.0.10"
   },
   "jest": {
