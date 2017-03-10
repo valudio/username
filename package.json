@@ -1,6 +1,6 @@
 {
   "name": "@valudio/username",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "description": "Get the username of the current user",
   "repository": "https://github.com/valudio/username",
   "author": "Valudio <development@valudio.com>",
