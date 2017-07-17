@@ -1,5 +1,7 @@
 # username
 
+[![NPM](https://nodei.co/npm/@valudio/username.png?mini=true)](https://nodei.co/npm/@valudio/username/)
+
 > Get the username of the current user. This is a fork of `https://github.com/sindresorhus/username`. 
 This forks exists due to the necessity of having ES5 code in the published package (because the Uglify plugin of Webpack was complaining about not understanding ES2015). By creating this Typescript version we also get the Typings for free.
 
