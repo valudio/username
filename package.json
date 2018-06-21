@@ -38,7 +38,7 @@
     "execa": "^0.6.0",
     "mem": "^1.1.0",
     "spawn-sync": "^1.0.15",
-    "try-thread-sleep": "^1.0.0"
+    "try-thread-sleep": "^2.0.0"
   },
   "devDependencies": {
     "@types/jest": "^19.2.0",
